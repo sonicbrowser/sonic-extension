@@ -1,0 +1,12 @@
+{
+  "name": "Request-Noise",
+  "version": "0.1",
+  "description": "Plays Request Body as AudioBuffer (not working now, chrome bugs)",
+  "permissions": ["webRequest",
+                  "<all_urls>"],
+  "background": {
+    "scripts": ["background.js"]
+  },
+
+  "manifest_version": 2
+}
