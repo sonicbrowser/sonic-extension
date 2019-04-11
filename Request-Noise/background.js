@@ -1,10 +1,11 @@
-// requestBody is empty now, 
-
 chrome.webRequest.onBeforeRequest.addListener(
   // callback
   function(info) {
     console.log("Packet: ");
     console.log(info);
+
+    // requestBody is empty now
+    // need to find 
     console.log(info.requestBody); 
   },
   // filters
