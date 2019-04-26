@@ -1,0 +1,7 @@
+{
+  "name": "DevTools Noise",
+  "version": "0.1",
+  "description": "Sonificate DevTools Network tab.",
+  "devtools_page": "devtools.html",
+  "manifest_version": 2
+}
